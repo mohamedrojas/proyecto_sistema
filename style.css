@@ -1,0 +1,142 @@
+*{
+    font-family:quicksand  ;
+
+}
+
+
+header{
+   
+    font-size: 1rem;
+    color: #008dcc;
+    font-weight: 900px;
+    display: flex;
+    padding: 20px 100px;
+    width: 90%;
+  
+    
+    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    
+    
+}
+
+header .navbar{
+    
+    
+
+}
+
+header .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    
+}
+
+header .navbar ul li{
+    list-style: none;
+    margin-right: 15px;   
+    
+
+}
+
+header .navbar li a{
+    color: #008dcc;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+       
+}
+
+header .navbar li a:hover{
+    font-size: 17px;
+    text-decoration: underline;
+    padding: 0px;
+    font-weight: bold;
+
+
+}
+
+.container{
+    width: 90%;
+    margin: 30px;
+
+
+}
+
+.principal{
+
+    min-height: 100vh;
+    background: #053bd9;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    
+
+
+}
+
+
+
+.principal .container h1{
+    color: #ffff;
+    width: 350px;
+    padding: 0 0 0 70px;
+
+    
+ 
+
+
+
+}
+
+
+.principal .container img{
+    flex: 50%;
+    width: 100%;
+    margin-left:0px ;
+
+
+}
+.principal  .description{
+
+    flex: 50%;
+    padding: 90px 255px 0 0;
+   
+}
+
+.principal  .description p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 35px;
+
+
+
+}
+
+
+
+.principal  .description .btn a{
+    background: #fff;
+    padding: 10px;
+    color: #008dcc;
+    font-weight: bolder;
+    border-radius: 18px;
+    text-decoration: none;
+    margin-right: 10px;
+    
+
+
+
+}
+
+.principal  .description .btn a:hover{
+    background-color: #053bd9;
+    color: #fff;
+
+
+}
